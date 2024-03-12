@@ -1,0 +1,57 @@
+css: 
+
+:hover
+:active
+:before
+:after
+:focus
+
+JS: Javascript:
+
+—— biến, if else, function, dom
+
+— biến: Array, object
+— Loop
+— CRUD: create, read, update, delete
+— MVC
+— DOM: query…
+— API
+
+—— phương thức trong js 
+
+
+Test js: 
+
+1: Viết 1 hàm số: tính giá trị lớn nhất và nhỏ nhất trong 3 số nhập vào từ bàn phím bằng thẻ input
+
+2: viết 1 hàm số: tính tuổi của học sinh: ==> bảo //
+Nếu dưới 10 tuổi thì học cấp 1
+Nếu học sinh đó dưới 15 tuổi thì đang học cấp 2
+Nếu dưới 17 tuổi thì học cấp 3
+Nếu trên 17 tuổi thì hoàn thành trung học phổ thông
+
+3: viết hàm tính phương trình bậc 2 ==> còn lại
+==> delta = b^2 - 2ac
+let delta, x1, x2;
+
+4: tạo 1 object: có tên của các học sinh trong lớp: JSA_04
+CRUD: object này
+==> read
+
+tạo: thấy hiếu
+==>  read
+update: update thầy hiếu => thầy thầy vũ
+==>  read
+delete: thầy vũ
+==> read
+
+5: tạo 1 mảng: có tên của các học sinh trong lớp: JSA_04
+CRUD: mảng này
+
+==> read
+tạo: thấy hiếu
+==>  read
+update: update thầy hiếu => thầy thầy vũ
+==>  read
+delete: thầy vũ
+==> read

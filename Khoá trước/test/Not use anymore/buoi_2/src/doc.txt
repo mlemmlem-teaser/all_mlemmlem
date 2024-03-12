@@ -1,0 +1,36 @@
+Buổi 2:
+
+DataType: Kiểu dữ liệu của biến
+CRUD: Create, Read, Update, Delete
+number, string, boolean: true/false, underfine, NaN, null;
+
+Array: Mảng, Object: object
+
+Object: tập hợp dữ liệu. được định danh bằng dấu {} / Object
+cấu tạo của object
+{
+    Key: Value
+}
+
+có nhiều cặp key và value này
+
+
+//object có thể chứa bất cứ thứ gì trong lập trình.
+
+// thao tác với Object: 
+
+==============================
+
+
+Mảng:Array
+
+Array: tập hợp dữ liệu, được định danh bằng dấu [] / Protortype.Array... ,
+cấu tạo:
+
+[3, 4, 5, 6, 7] ==> length: 5, 
+
+Value: giá trị: 3,4,5,6,7 ==> phần tử
+index: 0 -> ...(Độ dài của Mảng - 1)
+length: độ dài của mảng: 1 -> ...(phần tử cuối cùng của mảng)
+
+Array có thể chứa tất cả kiểu dữ liệu mà mình muốn trong lập trình.

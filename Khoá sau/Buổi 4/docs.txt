@@ -1,0 +1,9 @@
+/tên   : đường dẫn ra file lớn nhất chứa tên tệp này
+x.concat(y) : ghép 2 mảng với nhau
+forEach((element,index,currentArray))
+
+const c=[...a,...b] : ghép 2 mảng a b
+function a(...dhsfh) {
+    console(dhsfh)
+}
+a(1,2,3,4,5,6,7,8,9,0);

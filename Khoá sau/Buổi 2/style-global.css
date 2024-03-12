@@ -1,0 +1,31 @@
+@import url("theme.module.css");
+body {
+  background-color: var(--black);
+}
+@keyframes zoomOut {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+#mlemmlem {
+  animation: zoomOut 1s;
+}
+@keyframes mlemmlem {
+  10% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+@keyframes mlemmlem2 {
+  from {
+    transform: translate(0, 0, 0) scale(1,1);
+  }
+  to {
+    transform: translate(0, 0, 0) scale(2,2);
+  }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    <style>
+    body {
+        background-color: rgb(53, 2, 53);
+        color: black;
+        font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+        color: #c5b312;
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        width: 400px;
+    }
+    
+    label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"], input[type="email"], input[type="password"] {
+        border-radius: 3px;
+        border: none;
+        box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+        color: #333;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    input[type="submit"] {
+        background-color: rgb(53, 2, 53);
+        border-radius: 3px;
+        border: none;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: purple;
+    }
+    img {
+         width: 5%;
+        padding: 0;
+        margin: 0;
+        }
+    .Login-button {
+        background-color: rgb(82, 25, 82);
+        border: 2px solid yellow;
+        border-radius: 500px;
+        width: 30%;
+        height: 3em;
+        margin: 1%;
+        font-size: 15px;
+        text-shadow: 1px 1px orange;
+        color: azure;
+        font-weight: 600;
+    }
+    .Login-button:hover {
+        background-color: white;
+        color: black;
+    }
+</style>
+<link rel="stylesheet" href="Haloween3.html">
+	<title>Form Đăng Ký</title>
+	<script>
+        function LB12345() {
+            location.replace("Đăng nhập.html");};
+		function validateForm() {
+			var username = document.forms["myForm"]["username"].value;
+			var pattern = /^[a-zA-Z0-9]+$/;
+            var password = document.forms["myForm"]["password"].value;
+            var email = document.forms["myForm"]["email"].value;
+			if (!pattern.test(username)) {
+                alert("Tên đăng nhập phải dưới 30 ký tự.\nTên đăng nhập không được chứa kí tự đặc biệt.");
+                return false;
+            }
+            if (username.length > 30) {
+				alert("Tên đăng nhập phải dưới 30 ký tự.\nTên đăng nhập không được chứa kí tự đặc biệt.");
+				return false;
+			}
+            if (password.length<=8) {
+                alert("Mật khẩu phải trên 8 ký tự");
+                return false;
+            }
+            if (email=="") {
+                alert("Email không được để trống \n Example@gmail.com");
+                return false;
+            }
+		}
+	</script>
+</head>
+<body>
+	<h1 style="text-align: center;">Đăng Ký</h1>
+    <img src="images/Vector Smart Object-4.png" alt="" style="position: absolute;right: 5%;top: 5%;width: 15%;">
+	<div style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+    <form id="myForm" name="myForm" action="#" method="post" onsubmit="return validateForm()">
+        <label for="name">Tên: <p id="p1"></p></label><br>
+		<input type="text" id="name" name="username"><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="password">Mật khẩu:</label><br>
+		<input type="password" id="password" name="password"><br><br>
+		<input type="submit" value="Đăng Ký">
+    </form> 
+    <button class="Login-button" id="LB12345" onclick="LB12345()">Đã có tài khoản? Đăng nhập>></button class="Login-button">
+    </div>
+</body>
+<script>
+    document.getElementById("myForm").addEventListener("submit",(e)=>{
+        e.preventDefault();
+        if (validateForm()==false) {
+            
+        }
+        else { location.replace("Đăng nhập.html");
+        }
+        
+        }
+    )
+</script>
+</html>

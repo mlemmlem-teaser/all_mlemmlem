@@ -1,0 +1,24 @@
+/* * {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.topnav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: grey;
+    width: 100%;
+    padding: 0 1em;
+}
+.topnav a {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+}
+.topnav a:hover {
+    background-color: white;
+} */

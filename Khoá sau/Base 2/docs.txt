@@ -1,0 +1,3 @@
+/tên   : đường dẫn ra file lớn nhất chứa tên tệp này
+x.concat(y) : ghép 2 mảng với nhau
+forEach((element,index,currentArray))

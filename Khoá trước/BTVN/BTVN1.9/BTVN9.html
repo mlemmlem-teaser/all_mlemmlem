@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="BTVN9.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsjdsjds</title>
+</head>
+<body>
+    <form id="profile" onsubmit="return verify()">
+        Họ và tên: <br>
+        <input type="text" value="Nguyễn Văn A" id="fullname" name="v_name"> <div id="t_name"></div> <br>
+        Tuổi: <br>
+        <input type="number" value="00" id="age" name="v_age"> <div id="t_age"></div> <br>
+        Số điện thoại: <br>
+        <input type="number" value="0987654321" id="phonenumber" name="v_PN"> <div id="t_PN"></div> <br>
+        Giới tính: <div id="t_gender"></div> <br>
+        <input type="radio" name="gender" id="male">Nam <br>
+        <input type="radio" name="gender" id="female">Nữ <br>
+        <input type="radio" name="gender" id="other">Khác <br>
+        <input type="submit" id="submit">
+    </form>
+    
+</body>
+<script src="BTVN9.2.js"></script>
+<script>    
+    let x=document.getElementById("profile");
+    x.addEventListener("submit",(e)=>{e.preventDefault()})
+</script>
+</html>

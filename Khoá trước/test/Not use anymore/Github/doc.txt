@@ -1,0 +1,18 @@
+data: dữ liệu 
+chứa những dữ liệu của người dùng website
+
+data nó được chứa ở đâu ? ==> server
+
+method giao tiếp: HTTP/HTTPS
+
+chúng ta lấy cái data ở đâu ? ==> server
+
+client -- server : mô hình cơ bản của lập trình
+
+local: máy là server == client
+
+MVC, MVVC ...
+
+localStorage: nơi để lưu trữ dữ liệu (không bảo mật).
+JSON: mã hoá dữ liệu: kiểu dữ liệu: JSON.
+

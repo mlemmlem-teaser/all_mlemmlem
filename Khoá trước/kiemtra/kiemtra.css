@@ -1,0 +1,21 @@
+#profile {
+    background-color: wheat;
+    height: 100vh;  
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    padding: 0 5%;
+    width: 20vw;
+}
+#fullname {
+    height: 4vh;
+}
+#age {
+    height: 3vh;
+}
+#phonenumber {
+    height: 3vh;
+}
+#submit {
+    background-color: deepskyblue;
+}

@@ -1,0 +1,10 @@
+/tên   : đường dẫn ra file lớn nhất chứa tên tệp này
+x.concat(y) : ghép 2 mảng với nhau
+forEach((element,index,currentArray))
+
+export function a(); export { a, b } : hàm hay var
+export default {} : dùng 1 lần mỗi file
+
+import { functionA, functionB, varA, varB} import * as contains from "" 
+file import cần type module
+crtl + click đến thẳng nơi chứa file được export

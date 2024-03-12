@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global-style.css">
+
+    <!-- link to icon fontawsome -->
+    <script src="https://kit.fontawesome.com/de128cefbf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="header">
+            <h1>TODO LIST</h1>
+            <div id="wrap_search">
+                <input id="search_input" placeholder="Search note...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <select id="select_filter">
+                    <option>ALL</option>
+                    <option>Done</option>
+                    <option>Doing</option>
+                </select>
+            </div>
+        </div>
+        <div id="content">
+            <ul id="menu_todo">
+                <!-- <li class="menu_toDo_item">
+                    <div class="wrap_titleTodo">
+                        <input type="checkbox">
+                        <h1 style="width: 100%;"> hello</h1>
+                    </div>
+                    <div class="line"></div>
+                </li> -->
+            </ul>
+        </div>
+        <div id="wrap_button_add">
+            <button id="btn_add">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div id="container-modal">
+            <div id="modal">
+                <div style="width: 100%;">
+                    <h1 style="text-align: center; margin-bottom: 10px;">NEW NOTE</h1>
+                    <input id="input_Add_Note" placeholder="Input your note..." autofocus>
+                </div>
+                <div id="wrap_action">
+                    <div id="btn_cancel">
+                        <button id="btn_cancel_action">Cancel</button>
+                    </div>
+                    <div id="btn_success">
+                        <button id="btn_submit_action">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- link mutifile js -->
+    <!-- <script src="./utils/common.js"></script> -->
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

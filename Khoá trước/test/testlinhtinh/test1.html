@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .product-small .box-image:hover::before {
+        -webkit-animation: shine 0.75s;
+        animation: shine 0.75s;
+      }
+      @-webkit-keyframes shine {
+        100% {
+          left: 125%;
+        }
+      }
+      @keyframes shine {
+        100% {
+          left: 125%;
+        }
+      }
+      .product-small .box-image::before {
+        position: absolute;
+        top: 0;
+        left: -75%;
+        z-index: 2;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 100%;
+        background: -webkit-linear-gradient(
+          left,
+          rgba(255, 255, 255, 0) 0,
+          rgba(255, 255, 255, 0.3) 100%
+        );
+        background: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0) 0,
+          rgba(255, 255, 255, 0.3) 100%
+        );
+        -webkit-transform: skewX(-25deg);
+        transform: skewX(-25deg);
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      background-image: cross-fade(url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fsmurf-cat-%25D1%2588%25D0%25B0%25D0%25B9%25D0%25BB%25D1%2583%25D1%2588%25D0%25B0%25D0%25B9&psig=AOvVaw0n0kddWJPcfIhjSD5885oa&ust=1697437364048000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCODTjIu194EDFQAAAAAdAAAAABAD),url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdoraemon.fandom.com%2Fwiki%2FDoraemon&psig=AOvVaw0EDhltMccYTguX4HEznfxP&ust=1697437587351000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCJD9svW194EDFQAAAAAdAAAAABAD),50%);
+    "
+  >
+    <del>aaaaaaaaaaaaaaaa</del>
+    <div class="product-small">
+      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    </div>
+  </body>
+  <script>
+    let x = document.getElementById("aaaaa");
+    console.log(x.checked);
+  </script>
+</html>

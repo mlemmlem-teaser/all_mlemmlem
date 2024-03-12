@@ -1,0 +1,32 @@
+<tên biến>.<Key1>.<Key1.1>.<..........>
+CreateReadUpdateDelete
+/** enter comment dài
+array.push()
+array[0]=1
+array.splice(vị trí index,length cần xóa): xóa phần tử từ trái sang phải
+.
+.
+.
+for (biến;điều kiện true thì chạy false thì dừng;khi kết thúc vòng lặp) {lệnh}
+for (x in object) {}
+for (x of giá trị<chuỗi,tập hợp[]) : chạy 1 phát tử item1 --> itemN
+.
+.
+.
+document.createElement("tên thẻ")
+list.appendChild(các giá trị<biến>, <giá trị>) : thêm giá trị vào list
+
+
+F12 --> application
+lưu vào LocalStorage: all data converse to string
+x.setItem("key",value)
+x.getItem("key")
+value          JSON.strinnify(x): trả all về dạng chuỗi 
+value          JSON.parse(x): trả về đúng giá trị
+
+typeof x
+LocalStorage.removeItem("key):xoá key chỉ định
+LocalStorage.clear(): xoá all
+
+
+

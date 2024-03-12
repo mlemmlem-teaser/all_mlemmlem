@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- xây bố cục cho phần title của header -->
+            <div class="title">
+                <div class="line"></div>
+                <div class="detail_title">
+                    <!-- h1-h5: là thẻ dành cho tiêu đề -->
+                    <h2>
+                        <!-- span: thẻ dùng để viết text mà k bị xuống dòng như thẻ p -->
+                        <span style="color: #81BECE;">Tin</span>
+                        Cập Nhật
+                    </h2>
+                </div>
+            </div>
+            <!-- xây bố cục cho description -->
+            <div class="description">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, veritatis aut. Dolorum perferendis
+                </p>
+            </div>
+        </div>
+        <!-- khung màu đỏ -->
+        <div class="content">
+            <!-- khung màu xanh da trời -->
+            <div class="content_item">
+                <img src="../assets/Images/image_item.jpeg" />
+                <!-- khung màu xanh lá cây -->
+                <div class="content_item_desc">
+                    <div class="tag">
+                        Bản Tin Sáng
+                    </div>
+                </div>
+            </div>
+            <div class="content_item">
+                <img src="../assets/Images/image_item.jpeg" />
+                <!-- khung màu xanh lá cây -->
+                <div class="content_item_desc">
+                    <div class="tag">
+                        Bản Tin Sáng
+                    </div>
+                </div>
+            </div>
+            <div class="content_item">
+                <img src="../assets/Images/image_item.jpeg" />
+                <!-- khung màu xanh lá cây -->
+                <div class="content_item_desc">
+                    <div class="tag">
+                        Bản Tin Sáng
+                    </div>
+                </div>
+            </div>
+            <div class="content_item">
+                <img src="../assets/Images/image_item.jpeg" />
+                <!-- khung màu xanh lá cây -->
+                <div class="content_item_desc">
+                    <div class="tag">
+                        Bản Tin Sáng
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="images-zzz">
+            <img src="../assets/Images/1d0.jpg" alt="" style="width: 35vw; height: 60vh;border-radius: 100px;">
+        </div>
+        <div class="form">
+            <h1>Login</h1>
+            <h4>Don't have a account? <a href="" class="signup">Create now</a></h4>
+            <form name="myForm" onsubmit="return validateForm()">
+                <div class="title-2"> Email</div> 
+                <input class="needtyping" type="email" name="Email__" value="Enter Email"> <br>
+                <div class="space___"></div> <br>
+                <div class="title-2"> Password</div>
+                <input class="needtyping" type="password" name="Password__" value="Enter Password"> <br> <br>
+                <input type="submit" name="" id="" value="Login" class="submit">
+            </form>
+            <a href="" class="repassword">Forgot a password?</a>
+        </div>
+    </div>
+
+    <!-- Link file Js -->
+    <script src="main.js"></script>
+</body>
+<script>
+    document.getElementById("myForm").addEventListener("submit",(e)=>{
+        e.preventDefault();
+        }
+    )
+</script>
+
+</html>
